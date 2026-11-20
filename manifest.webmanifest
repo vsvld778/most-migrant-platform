@@ -1,0 +1,14 @@
+{
+  "id": "./",
+  "name": "Мост поддержки · Migrant Wallet",
+  "short_name": "Мой месяц",
+  "start_url": "./?view=mobile#month",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d201d",
+  "theme_color": "#0d201d",
+  "icons": [
+    {"src":"./app-192.png","sizes":"192x192","type":"image/png"},
+    {"src":"./app-512.png","sizes":"512x512","type":"image/png"}
+  ]
+}
