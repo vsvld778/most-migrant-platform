@@ -108,7 +108,7 @@ function renderChrome(route) {
 function heading(route) {
   const parent = route === 'review' ? s.draft?.back || 'wallet' : pages[route][3];
   const back = parent ? '<a class="back" href="#'+parent+'">'+icon('arrow-left')+label(parent)+'</a>' : '';
-  const period = route === 'month' ? '<span class="eyebrow">'+t('Ноябрь 2026','Ноябрь 2026')+'</span>' : '';
+  const period = route === 'month' ? '<span class="eyebrow">'+t('Ноябрь 2026 · Демо','Ноябрь 2026 · Демо')+'</span>' : '';
   return '<header class="page-head">'+back+period+'<h1>'+label(route)+'</h1></header>';
 }
 function render() {
